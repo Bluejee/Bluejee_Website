@@ -1,0 +1,58 @@
+.Chapter {
+  display: grid;
+  grid-gap: 2vw;
+  grid-template-columns: repeat(6, 2fr);
+  grid-auto-rows: auto;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: top;
+}
+
+/* Maps */
+.embed_map_2 {
+  grid-column: -1 / -3;
+}
+
+/* Images */
+
+.image_2_l {
+  grid-column: 1 / 2;
+}
+.image_2_r {
+  grid-column: -1 / -2;
+}
+
+/* Titles */
+
+.chapter_title {
+  grid-column: 1 / -1;
+}
+
+/* Paragraphs */
+
+.para_span {
+  /* grid-column-start: 1;
+  grid-column-end: -1; 
+  gives the same results.
+  */
+  grid-column: 1 / -1;
+}
+
+/* something_a_b means something has a size of a and starts at b */
+
+.para_5_2 {
+  grid-column: 2 / -1;
+}
+.para_4_1 {
+  grid-column: 1 / 5;
+}
+.para_2_1 {
+  grid-column: 1 / 3;
+}
+.para_2_3 {
+  grid-column: 3 / 5;
+}
+.para_2_5 {
+  grid-column: 5 / -1;
+}
