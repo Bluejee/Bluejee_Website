@@ -12,7 +12,7 @@ h1 {
 h2 {
   color: green;
   text-align: left;
-  border: 0.1vw solid black;
+  /* border: 0.1vw solid black; */
 }
 p {
   color: black;
