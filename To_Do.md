@@ -1,0 +1,6 @@
+- [ ] Create a site info folder with an html that explains about different aspects of the page.
+    - [ ] It sould also be structured in a similar mannar as the home page.
+    - [ ] In it add information about the copyright, and speicify how to identify exceptions in copyright.
+    - [ ] Add a section for attribution of items under which its copyright information is not directly specified.
+    - [ ] Specify that all glyphs are taken from the official brand website.
+    - [ ] All Bluejee Logos and glyphs are CC_BY_NC_ND.
