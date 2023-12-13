@@ -1,176 +1,42 @@
-html{
-  scroll-behavior: smooth;
-}
-header {
-  width:100svw;
-  display: flex;
-  align-items: center;
-  background-color: powderblue;
-  padding: 20px;
-  margin: 0%;
-}
-
-.header_navigation_left {
-  flex:1;
-  text-align: left;
-  list-style: none;
-}
-.header_navigation_right {
-  flex:1;
-  text-align: right;
-}
-.header_logo{
-  flex:1;
-  text-align: center;
-}
-
-nav ul, .social_links{
-    list-style-type: none;
-    display:flex;
-    gap: 2ch;
-}
-
-footer {
-  display: flex;
-  align-items: center;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-
-.footer_main, .footer_social, 
-.footer_copyright {
-  flex: 1;
-  text-align: center;
-}
-
-main{
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-section{
+
+section {
   text-align: center;
+  margin-top: 40px;
+  padding: 40px 20px; /* Adding padding for better readability */
+  background-color: #f5f5f5; /* Light grey background for sections */
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 120ch;
 }
-section p{
+
+section p {
   max-width: 100ch;
   text-align: justify;
 }
 
-/* Additional CSS for card layout */
-.carousel {
+.intro {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  margin-top: 20px;
+  flex-direction: row;
+  align-items: center;
 }
 
-.card {
-  width: 250px;
-  padding: 20px;
-  background-color: #f2f2f2;
-  border-radius: 8px;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.intro .intro-text {
+  flex: 1;
+  /* Adjust margins and padding as needed */
+  margin-right: 20px; /* To create space between text and image */
 }
 
-.card a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  transition: transform 0.3s ease;
-}
-
-/* Existing CSS */
-
-/* Additional CSS for Research Projects and Hobby Projects */
-#research_projects,
-#hobby_projects {
-  text-align: center;
-  margin-top: 40px;
-}
-
-#research_projects h1,
-#hobby_projects h1 {
-  margin-bottom: 20px;
-}
-
-/* Additional CSS for card layout */
-#research_projects .carousel,
-#hobby_projects .carousel {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-#research_projects .card,
-#hobby_projects .card {
-  width: 250px;
-  padding: 20px;
-  background-color: #f2f2f2;
-  border-radius: 8px;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-#research_projects .card a,
-#hobby_projects .card a {
-  text-decoration: none;
-  color: inherit;
-}
-
-#research_projects .card:hover,
-#hobby_projects .card:hover {
-  transform: translateY(-5px);
-  transition: transform 0.3s ease;
-}
-
-/* Existing CSS */
-
-/* Additional CSS for Support My Work Section */
-#support_my_work {
-  text-align: center;
-  margin-top: 40px;
-}
-
-#support_my_work h1 {
-  margin-bottom: 20px;
+.intro .intro-image img {
+  max-width: 100%;
+  height: auto;
 }
 
 
-/* Additional CSS for progress cards */
-.progress-cards {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
 
-.progress-card {
-  width: 250px;
-  padding: 20px;
-  background-color: #f2f2f2;
-  border-radius: 8px;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-}
 
-.progress-card:hover {
-  transform: translateY(-5px);
-  transition: transform 0.3s ease;
-}
 
-.progress-bar {
-  height: 20px;
-  border-radius: 8px;
-  background-color: #4caf50; /* Change this color to suit your design */
-}
-
-/* Adjust this width based on your goal progress */
-.progress-bar {
-  width: 50%; /* Example progress value */
-}
