@@ -111,7 +111,7 @@ footer {
 }
 
 .floating_card {
-  width: 250px;
+  width: 35ch;
   padding: 20px;
   background-color: #fff; /* White background for cards and progress bars */
   border-radius: 8px;
