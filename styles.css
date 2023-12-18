@@ -17,6 +17,7 @@ section {
 section p {
   max-width: 100ch;
   text-align: justify;
+  display: inline-block;
 }
 
 .intro {
