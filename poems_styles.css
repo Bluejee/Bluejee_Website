@@ -1,11 +1,34 @@
-/* Card styles */
-
 .poem_card {
   width: 50ch;
-  height: 80ch; /* 3:4 aspect ratio for the card */
+  height: 100ch; /* Set your preferred height here */
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   text-align: center;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.poem_card h1 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.poem_card .poem {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #555;
+  overflow-y: auto;
+  margin-bottom: auto;
+}
+
+.poem_card .author {
+  color: #888;
+  font-style: italic;
+  text-align: right;
 }
