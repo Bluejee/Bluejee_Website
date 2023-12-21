@@ -2,6 +2,12 @@
 
 .blog_card {
   width: 40ch;
-  height: 50ch; /* 3:4 aspect ratio for the card */
+  /* height: 50ch; 3:4 aspect ratio for the card */
   padding: 20px;
+}
+.blog_card p {
+  text-align: justify;
+}
+.thumbnail {
+  height: 30ch; /* 3:4 aspect ratio for the card */
 }
