@@ -1,0 +1,10 @@
+/* Card styles */
+
+.research_card {
+  width: 40ch;
+  /* height: 50ch; 3:4 aspect ratio for the card */
+  padding: 20px;
+}
+.research_card p {
+  text-align: justify;
+}
