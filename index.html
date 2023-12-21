@@ -1,45 +1,375 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./global_styles.css">
   <link rel="stylesheet" type="text/css" href="./styles.css">
-  <title>My Website</title>
+  <title>Welcome</title>
+  <noscript>
+    <p>You Seem to have JavaScripts disabled. But do not worry. I have got you covered. You will be notified of
+      what you are missing out whenever there is an issue. This website will be completly working for your use
+      without losing any of the necessary functionality.</p>
+  </noscript>
 </head>
+<!-- I have relied heavily on referencing and utilizing tags such as rel="me" to provide relevant context 
+            to search engines for this website. Therefore, I recommend exercising caution when making changes to 
+            the website. While certain elements may not appear to have a visible impact, they may serve a purpose 
+            and should be thoroughly researched before being deleted.-->
+
 <body>
   <header>
-    <h1>Bluejee</h1>
-    <h2>(Balakrishna Prabhu B. N.)</h2>
+    <nav class="header_navigation_left">
+      <ul>
+        <li><a href="./index.html#home">Home</a></li>
+        <li><a href="./index.html#research">Research Works</a></li>
+        <li><a href="./index.html#portfolio">Hobby Projects</a></li>
+        <li><a href="./index.html#personal_interests">Litrature & Art</a></li>
+        <li><a href="./index.html#doubt-factory">The Doubt Factory Initiative</a></li>
+      </ul>
+    </nav>
+    <nav class="header_logo">
+      <a rel="me" href="./index.html"><img src="Images/Bluejee_Logo_Pack/Bluejee_Logo_Sized.png" alt="Bluejee Logo"
+          height="100 px"></a>
+    </nav>
+    <nav class="header_navigation_right">
+      <ul>
+        <li><a href="./index.html#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+
   </header>
+  <main>
+    <section id="Home">
+      <div class="intro">
+        <div class="intro-text">
+          <h1>Hey There, This is me!</h1>
+          <p>Hi, I'm Balakrishna. I'm a passionate explorer of the world of science and technology. These explorations
+            have
+            led me to tinker with lots of DIY projects and explore physics and computer science, constantly motivating
+            me to learn new things. Currently, I am working as a Research Assistant at the <a
+              href="https://www.ibab.ac.in/">Institute of Bioinformatics and Applied Biotechnology</a> in Bangalore.</p>
+          <p>Apart from academics, I love coding and exploring new ideas. I enjoy constructive debates and discussions
+            on a
+            wide array of topics. I'm also passionate about teaching and mentoring. I believe that we can improve
+            ourselves
+            and the world by sharing our knowledge. I always strive to inspire people to be passionate and pursue their
+            interests rather than being a part of the rat race.</p>
+          <p>One of my long-term goals is to build a community of like-minded people where each motivates others to
+            learn
+            and grow together. As humans, we're limited in many abilities, especially the ability to utilize time. There
+            are
+            only 24 hours in a day for any given person, but when people come together, time multiplies, and we can
+            achieve
+            much more than we could alone.</p>
+          <p>In line with these thoughts, I strongly advocate open-source software and Creative Commons. I believe that
+            knowledge should be freely accessible to everyone, and no one should be denied access to it. I've benefited
+            a
+            lot from the open-source community, and I am a result of the work built upon the foundations laid by many
+            others. And as Newton once said, "If I have seen further, it is by standing on the shoulders of giants."</p>
+          <p>In short, I'm a physics lover, tech enthusiast, lifelong learner, reliable mentor, an advocate of open
+            knowledge, and a believer in collaboration. I look forward to finding and connecting with others who share
+            these
+            beliefs and make the world a better place.</p>
+        </div>
+        <div class="intro-image">
+          <img src="Images/IMG_20221227_103300_885.jpg" alt="Balakrishna Prabhu B N" width="300" height="300">
+        </div>
+      </div>
+      <nav><a href="#contact">Contact Me</a></nav>
+    </section>
 
-  <section>
-    <h3>Poems</h3>
-    <ol>
-      <li><a href="./Poems/Spark.html">Spark.</a></li>
-      <li><a href="./Poems/Places.html">Places.</a></li>
-      <li><a href="./Poems/Earth.html">Earth.</a></li>
-    </ol>
-  </section>
+    <section id="research">
+      <h1>My Research Projects</h1>
+      <p>I have always been fascinated by the remarkable advancements that humans have achieved throughout the ages.
+        These achievements stems from our innate ability to question the unknown and venture boldly into uncharted
+        territories in search of answers. I consider myself an adventurer in this ongoing exploration.</p>
+      <p>Research holds a special place in my heart, representing a realm where my passion thrives. Through various
+        projects, I've gained profound insights into the intricacies of our world and its workings.</p>
+      <p>Here, I present a glimpse of some projects that have not only inspired me but have also been instrumental in
+        providing valuable lessons. These are just a few among many, and I invite you to delve deeper if your curiosity
+        is piqued.</p>
 
-  <section>
-    <h3>My Places Map</h3>
-    <ol>
-      <li><a href="./Maps/Countries">Countries.</a></li>
-      <li><a href="./Maps/States_India">States in India.</a></li>
-      <li><a href="./Maps/Locations">Locations.</a></li>
-    </ol>
-  </section>
+      <div class="carousel">
+        <a href="https://github.com/Bluejee/OpenLIBS" class="floating_card">
+          <h2>LIBS for All</h2>
+          <p>Lasers, a marvel of scientific discovery, have proven invaluable in solving innumerable challenges.</p>
+          <p>Laser-Induced Breakdown Spectroscopy (LIBS), a branch of laser physics, involves directing laser pulses
+            onto materials, studying the resulting plasma to gain insights into the sample.</p>
+          <p>Introducing OpenLIBS: an open-source Python package designed for the computational analysis of LIBS
+            spectra. It empowers users to conduct qualitative analysis based on LIBS data.</p>
+        </a>
 
-  <section>
-    <h3>My Blogs</h3>
-    <ol>
-      <li><a href="./Blogs/Mumbai_Diaries">Mumbai Diaries.</a></li>
-    </ol>
-  </section>
 
-  <script src="./script.js"></script>
-  <footer style="text-align: center;">
-    Copyright (C) 2023 Balakrishna Prabhu B. N.
+        <a href="https://github.com/Bluejee/Ant_Foraging_MNEST" class="floating_card">
+          <h2>How Inteligents are Ants?</h2>
+          <p>Ants are simple creatures, and often seem to be stupid when looked at individually.</p>
+          <p>As a collony though, its a different story. They have amazing mechanisms through which they collaborate and
+            solve problems to figure out how to survive and forage food.</p>
+          <p>Understanding Complex Behaviours in Multi-Agent systems using Reinforcement Learning, is a project which
+            aims to gain insights on the emergent
+            phenomena that can be observed in the physical world using Reinforcement Learning and Physics</p>
+        </a>
+        <a href="https://github.com/Bluejee/Basics_of_Chaos" class="floating_card">
+          <h2>Deciphering Chaos</h2>
+          <p>The allure of chaos captivates us all, evoking notions of freedom and possibility. Terms like the butterfly
+            effect have become common even for teenagers, yet chaos remains a misunderstood enigma.</p>
+          <p>Contrary to popular portrayal, delving into chaos theory offers insights that underpin our world.</p>
+          <p>"Chaos - Interpreting the Physical Pendulum and the Chaotic Ratchet", is a project that aims to explore the
+            feild of dynamical systems such and study the counterintutive workings of the physical pendulum and the
+            Chaotic Ratchet. </p>
+        </a>
+        <a href="research_projects.html" class="floating_card">
+          <h2>Ready to Explore More?</h2>
+          <p>While I've showcased a selection of my favorite projects here, there are much more in my quiver, completed
+            and ongoing.</p>
+          <p>Step into my world of research—I'd love to share my work and delve deeper into what I've been exploring.
+          </p>
+          <p>If you're curious, let me take you on this journey.</p>
+          <p>Click to explore further!</p>
+        </a>
+
+        <!-- Repeat this structure for other research projects -->
+      </div>
+    </section>
+
+
+    <section id="portfolio">
+      <h1>My Hobby Projects</h1>
+      <p>We've all heard the phrase "All work and no play makes Jack a dull boy." It's been a sanctuary for me when the
+        stress of research and academics looms large. In these moments, I escape into my own world, tinkering with
+        electronics, building simulations, creating games, and diving into various other pursuits.</p>
+      <p>Among the many things I enjoy during my downtime, I have a special corner reserved for what I call my hobby
+        projects. These are my time investments, hours poured into learning and experimenting until, finally, that
+        "Eureka!" moment arrives, and I'm bouncing around like a kid on a trampoline.</p>
+      <p>Here, I present a glimpse of these geeky and nerdy pleasures of mine. While these projects reflect part of my
+        creative journey, there's still an abundance waiting to be uncovered.</p>
+
+      <div class="carousel">
+        <a href="https://github.com/Bluejee/Sudoku_Solver" class="floating_card">
+          <h2>Sudoku Solver</h2>
+          <p>Sudoku, for some, is a brain-busting puzzle; for others, it's a relaxing pastime.</p>
+          <p>When faced with an unsolvable puzzle online, I opted to build my own solver rather than seek an answer
+            elsewhere.</p>
+          <p>Through this project, I explored perfect sudokus, backtracking, and other intriguing concepts and
+            algorithms.</p>
+          <p>Now, it's a handy tool that swiftly solves puzzles, but only when we are fed up of solving it ourselves.
+          </p>
+        </a>
+        <a href="https://github.com/Bluejee/Firefly_Synchronization" class="floating_card">
+          <h2>Firefly Synchronization</h2>
+          <p>Fireflies are mesmerizing with their bioluminescence, captivating both young and old.</p>
+          <p>Inspired by their synchronized blinking in nature, I simulated this emergent behavior in a swarm of
+            fireflies.</p>
+          <p>Exploring the complexities of emergent behavior, I employed mathematical rules to orchestrate
+            synchronization among individual fireflies, observing them eventually blink in unison.</p>
+        </a>
+
+
+        <a href="https://github.com/Bluejee/ASCII_Art" class="floating_card">
+          <h2>ASCII Art</h2>
+          <p>Have you ever thought about the concept of images being built with tiny building blocks called pixels?</p>
+          <p>Digital images, when observed closely, are formed by varying pixel intensities. I delved into the realm of
+            digital art, exploring how these pixels don't have to be rigid blocks.</p>
+          <p>I discovered a unique approach of using keyboard characters in place of pixels. Although this concept isn't
+            entirely novel, my inspiration from various creators led me to create my own spinoff of this work.</p>
+        </a>
+
+        <a href="hobby_projects.html" class="floating_card">
+          <h2>Curious for More Fun Projects?</h2>
+          <p>While I've showcased a handful of my favorite projects here, there are more of my creative endeavors behind
+            the doors.</p>
+          <p>There is nothing more exciting for a hobbiest than sharing their passions and getting others excited about
+            them</p>
+          <p>If you'd honor me, I'd be thrilled to guide you through my collection of hobby projects.</p>
+          <p>Click to embark on the journey!</p>
+        </a>
+
+        <!-- Repeat this structure for other hobby projects -->
+      </div>
+    </section>
+
+
+    <section id="personal_interests">
+      <h1>Let's Get Personal</h1>
+      <p>Art and literature grant us liberation from the rigid confines of rules, offering a canvas where we can freely
+        bend, break, and recreate without limitations. It's an artistic freedom that lets us redefine grammar, painting
+        palettes, writing conventions, or even the placement of a camera—where every rule is an invitation to break
+        them.</p>
+      <p>There are moments when experiences or emotions drive me to pen down my thoughts. Sometimes, words fall short in
+        capturing what I feel, leading me to express through photos, videos, or mixing them into a singular creation.
+        I've even on Occasion, let my hand sketch whatever springs to mind, and while I wouldn't call myself an artist
+        in the traditional sense, these ventures open a window into my inner self.</p>
+      <p>But in any case, perfection has never been the aim, instead, It is the imperfections that render these
+        creations valuable and genuine.</p>
+      <div class="carousel">
+        <a href="Poems.html" class="floating_card">
+          <h2>My Poems</h2>
+          <p> Join me in my world thats grey,<br>
+            where there are no rules or limits.<br>
+            where what I do, just like clay,<br>
+            is bend to raise my spirits.<br><br>
+
+            Join me in a world that's mine,<br>
+            where no one has a say,<br>
+            to where I go when im not fine,<br>
+            or when I just want to sway.</p>
+        </a>
+        <a href="blogs.html" class="floating_card">
+          <h2>My Blogs</h2>
+          <p>Its not always that I venture onto an adventure thinking I want to share that experience with people. Most
+            of my adventures are very private and are kept to myself.</p>
+          <p>But sometimes, I like to be the host of an adventure, take people along with me on my journey. </p>
+          <p>If youd like walk in my shoes on such a journey, Let me guide you through some amazing adventures I've had.
+          </p>
+        </a>
+        <a href="articles.html" class="floating_card">
+          <h2>My Articles</h2>
+          <p>Life often offers moments of realization, emerging unexpectedly from what we consider trivial. These random
+            thoughts contribute significantly to our growth and influence how we navigate life's challenges.</p>
+          <p>One such thought that stuck was that, Learning from the mistake of others is sometimes more important than
+            making those mistakes ourself to learn from them.</p>
+          <p>This certainly helps me have an open view and empathise with others, and maybe my mistakes and experiences
+            would help you well.</p>
+          <p>And hence, I now write whatever comes to my mind to engage with other like minded individuals.</p>
+
+        </a>
+        <!-- <a href="photography.html" class="floating_card">
+          <h2>My Photography</h2>
+          <p>Explore my Photography.</p>
+        </a> -->
+        <!-- <a href="art.html" class="floating_card">
+          <h2>My Art</h2>
+          <p>Explore my collection of Artworks.</p>
+        </a>
+        <a href="memories.html" class="floating_card">
+          <h2>My Memories</h2>
+          <p>Explore my collection of memories.</p>
+        </a>
+        <a href="places.html" class="floating_card">
+          <h2>My Places</h2>
+          <p>Explore my travel adventure</p>
+        </a> -->
+
+      </div>
+    </section>
+
+
+
+
+
+    <section id="doubt-factory">
+      <h1>The Doubt Factory</h1>
+      <p>Questioning things has been a significant part of my life, bringing me immense pleasure and satisfaction. Since
+        childhood, I've been known as the kid who asks the most questions, Despite becoming the subject of jokes and
+        teasing, I could never stop asking doubts. I'm certain I'm not alone in this experience. However, I've noticed
+        many
+        people give up on their curiosity and cease to ask questions. What most fail to see is the sheer joy of
+        questioning, being curious, and ultimately finding the solutions.</p>
+
+      <p>The current state of the world often portrays learning as uncool and tedious, but in truth, it's far from it.
+        This misconception stems from years of misrepresentation of science, technology, and various aspects of the
+        world. While I don't imply that the current system is entirely flawed, my own encounters with such issues reveal
+        the extensive room for improvement.</p>
+
+      <p>I consider myself part of a privileged group with access to excellent education and unwavering support from my
+        family to nurture curiosity and choose my paths. I acknowledge that not everyone shares the same fortune. I
+        strongly believe that those bestowed with privilege should strive to extend similar benefits to others.</p>
+
+      <p>In essence, I aim to provide similar privileges to as many individuals as possible. This is the essence of my
+        concept, The Doubt Factory. To all those inquisitive minds, to the child within everyone who dared to ask
+        'silly' questions, experiment, try new things, and innocently pestered their parents and others with their
+        curiosity - to you, I'd like to say this:</p>
+
+      <p>I know I cannot change the system, at least not right now. So I Embark upon a journey to let you know that you
+        are not alone, that asking questions is not wrong, that the universe is ready with the answers, just waiting for
+        us to ask the right questions.We may have to confront hundreds or even thousands of seemingly trivial and silly
+        questions before we uncover the right problems. Who knows, our doubts might just change the world.</p>
+
+      <p>And for that I give you <a href="https://github.com/thedoubtfactory">"The Doubt Factory"</a></p>
+
+    </section>
+
+
+    <section id="support_my_work">
+      <h1>Support My Work</h1>
+      <!-- <div class="carousel">
+        <a href="goal1.html" class="floating_card">
+          <h2>Goal 1</h2>
+          <div class="progress-bar" style="width: 50%;"></div>
+          <p>Brief summary of Goal 1.</p>
+        </a>
+        <a href="goal2.html" class="floating_card">
+          <h2>Goal 2</h2>
+          <div class="progress-bar" style="width: 20%;"></div>
+          <p>Brief summary of Goal 2.</p>
+        </a>
+      </div> -->
+
+      <p>My projects are dedicated to open-source ideals, striving to give back to the community. I try organize workshops,
+        seminars, and other events aimed at empowering communities and providing support to those who might not have the
+        same opportunities as many of us do.</p>
+      <p>If you believe in the power of open-source, education, and societal progress, your contributions, no matter how
+        big or small, make a significant impact. They help sustain and expand the quality and frequency of these
+        initiatives.</p>
+      <p>Whether you're interested in contributing or seeking collaboration opportunities, I welcome your involvement.
+        Your support, in any form, is greatly appreciated. Please feel free to reach out to explore how you can be a
+        part of this journey. Thank you sincerely for your consideration.</p>
+    </section>
+
+
+
+
+  </main>
+  <footer id="contact">
+    <div class="footer_main">
+      <aside>
+        <a href="./index.html"><img src="Images/Bluejee_Logo_Pack/Bluejee_Logo_Sized.png" alt="Bluejee Logo"
+            height="100 px"></a>
+        <P>Balakrishna Prabhu B. N.</P>
+        <p>Site last upadated on :: 21/12/2023</p>
+
+      </aside>
+
+    </div>
+    <div class="footer_social">
+      <aside>
+        <h4>Connect with me on social media:</h6>
+          <ul class="social_links">
+            <li><a rel="me" href="https://www.linkedin.com/in/balakrishnaprabhubn/" target="_blank"><img
+                  src="Images/Brand_Glyphs/LI-In-Bug.png" alt="Linkdin Logo" height="40 px"></a>
+            </li>
+            <li><a rel="me" href="https://github.com/Bluejee" target="_blank"><img
+                  src="Images/Brand_Glyphs/github-mark.png" alt="Github Logo" height="40 px"></a>
+            </li>
+            <li><a rel="me" href="https://twitter.com/bluejee4" target="_blank"><img
+                  src="Images/Brand_Glyphs/Twitter social icons - circle - blue.png" alt="Twitter Logo"
+                  height="40 px"></a>
+            </li>
+            <li><a rel="me" href="https://www.instagram.com/Bluejee4/" target="_blank"><img
+                  src="Images/Brand_Glyphs/Instagram_Glyph_Gradient.png" alt="Instagram Logo" height="40 px"></a>
+            </li>
+            <li><a rel="me" href="https://www.youtube.com/@bluejee" target="_blank"><img
+                  src="Images/Brand_Glyphs/youtube_social_icon_red.png" alt="Youtube Logo" height="40 px"></a>
+            </li>
+          </ul>
+          <p>If you'd like to contact me directly, email me at <br> <a
+              href="mailto:balakrishnaprabhu1999@gmail.com">balakrishnaprabhu1999@gmail.com</a></p>
+      </aside>
+    </div>
+    <div class="footer_copyright">
+      <aside>
+        <p>Copyright (c) 2023 Balakrishna Prabhu B. N.</p>
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License"
+            style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
+        Unless otherwise <a href="./Page_Info/page_info.html#Copyright">indicated</a>, the contents of <br>this
+        website (Bluejee) is licensed under a <br>
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+          Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+      </aside>
+    </div>
   </footer>
 </body>
+
 </html>
