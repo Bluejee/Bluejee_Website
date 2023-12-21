@@ -125,11 +125,11 @@ footer {
 }
 
 .floating_card p {
-  overflow: hidden;
-  text-overflow: ellipsis;
+  /* overflow: hidden;
+  text-overflow: ellipsis; */
   display: -webkit-box;
-  -webkit-line-clamp: 8; /* Adjust as needed */
-  -webkit-box-orient: vertical;
+  /* -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical; */
   margin-bottom: 0;
 }
 
