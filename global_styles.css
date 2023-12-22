@@ -77,30 +77,6 @@ footer {
   color: #4caf50; /* Green color for the license links */
 }
 
-/* Responsive styling */
-@media (max-width: 768px) {
-  header {
-    flex-direction: column;
-  }
-  .header_navigation_left,
-  .header_navigation_right {
-    text-align: center;
-    margin-top: 10px;
-    flex: none;
-  }
-  .header_logo {
-    margin-top: 10px;
-  }
-  nav ul,
-  .social_links {
-    display: block;
-    text-align: center;
-    margin-top: 10px;
-  }
-}
-
-
-
 /* CSS for card layout */
 .carousel {
   display: flex;
