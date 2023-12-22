@@ -1,0 +1,92 @@
+/* CSS for mobile responsiveness */
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  /* Header */
+  header {
+    width:auto;
+    flex-direction: column;
+  }
+
+  .header_navigation_left,
+  .header_navigation_right,
+  .header_logo {
+    text-align: center;
+    margin: auto;
+    flex: none;
+  }
+
+  nav ul {
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+  }
+
+
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .intro .intro-text {
+    flex: 1;
+    order: 2; /* Change the order to display the image first */
+    /* Adjust margins and padding as needed */
+    margin-right: 20px; /* To create space between text and image */
+  }
+  
+  .intro .intro-image img {
+    order: 1; /* Change the order to display the image first */
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+
+  /* Sections */
+  section {
+    width: auto;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  section p {
+    max-width: none;
+    text-align: left;
+  }
+
+  .carousel {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .floating_card {
+    width: 80%; /* Adjust width for better fit on smaller screens */
+    margin-bottom: 20px;
+  }
+
+  footer {
+    width:auto;
+    flex-direction: column;
+  }
+
+  .social_links{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+
+  }
+  .footer_main,
+  .footer_social,
+  .footer_copyright {
+    text-align: center;
+  }
+
+  
+}
+
+
+
