@@ -89,3 +89,14 @@
     background-position: -390px;
   }
 }
+
+
+/* Responsive styling */
+@media (max-width: 768px) {
+.floating_card{
+  flex-direction: column;
+}
+.links{
+  flex-direction: row;
+}
+}
