@@ -1,0 +1,187 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  /*fonts*/
+
+  /*fontsizes*/
+  --h1_size: 3rem;
+  --h2_size: 2rem;
+  --h3_size: 1.5rem;
+  --p_size: 1.5rem;
+  --nav_size: 1.8rem;
+
+  /* Colors */
+
+  --neutral_dark: #11191f;
+  --neutral_light: #e1e6eb;
+
+  --primary: #00a3d6;
+
+  --secondary: #1d2c37;
+
+  --accent: #ff5100;
+
+  --background: var(--neutral_dark);
+
+  --text: var(--neutral_light);
+
+  --error: ;
+
+  --success: ;
+
+  /* Image_sizes */
+  --bluejee_logo_height: 7rem;
+  --social_logo_width: 3rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+nav,
+nav a {
+  color: var(--primary);
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 2rem;
+  font-size: var(--nav_size);
+  list-style-type: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header {
+  background-color: var(--secondary);
+  border-radius: 1rem;
+}
+
+main {
+ 
+  max-width:80rem;
+  margin: auto;
+
+}
+
+hgroup{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+hgroup > *{
+  margin: 0;
+  padding: 0;
+}
+
+
+main img{
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+figure{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-size: var(--h1_size);
+}
+h2 {
+  font-size: var(--h2_size);
+}
+h3 {
+  font-size: var(--h3_size);
+}
+
+p {
+  font-size: var(--p_size);
+}
+.logo {
+  max-height: var(--bluejee_logo_height);
+}
+.social_logo {
+  max-width: var(--social_logo_width);
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+  text-align: center;
+}
+
+footer ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 2rem;
+  list-style: none;
+  justify-content: center;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+}
+
+.footer_copyright {
+  max-width: 60ch;
+}
+
+@media (max-width: 768px) {
+  :root{
+    --h1_size: 2rem;
+    --h2_size: 1.8rem;
+    --h3_size: 1.3rem;
+    --p_size: 1.2rem;
+    --nav_size:1.2rem;
+  }
+    footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer_main {
+    order: 2;
+  }
+  .footer_social {
+    order: 1;
+  }
+  .footer_copyright {
+    order: 3;
+  }
+
+  header nav{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 0.5rem;
+  }
+}

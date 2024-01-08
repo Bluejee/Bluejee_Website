@@ -4,36 +4,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="global_styles.css">
-  <link rel="stylesheet" href="research_styles.css">
-  <link rel="stylesheet" type="text/css" href="./responsive_style.css">
+  <link rel="stylesheet" type="text/css" href="./page_style.css">
+  <link rel="stylesheet" type="text/css" href="./carousel_style.css">
   <title>Research Projects</title>
 </head>
 
 <body>
   <header>
-    <nav class="header_navigation_left">
-      <ul>
-        <li><a href="./index.html#home">Home</a></li>
-        <li><a href="./research_projects.html">Research Works</a></li>
-        <li><a href="./hobby_projects.html">Hobby Projects</a></li>
-        <li><a href="./index.html#personal_interests">Literature & Art</a></li>
-        <li><a href="./index.html#doubt-factory">The Doubt Factory Initiative</a></li>
-      </ul>
-    </nav>
-    <nav class="header_logo">
-      <a rel="me" href="./index.html"><img src="Images/Bluejee_Logo_Pack/Bluejee_Logo_Sized.png" alt="Bluejee Logo"
-          height="100 px"></a>
-    </nav>
-    <nav class="header_navigation_right">
-      <ul>
-        <li><a href="./index.html#contact">Contact Me</a></li>
-      </ul>
-    </nav>
+    <nav>
+      <a rel="me" href="index.html"><img src="Images/Bluejee_Logo_Pack/Bluejee_Logo_Sized.png" class='logo'
+          alt="Bluejee Logo"></a>
 
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./hobby_projects.html">Hobby Projects</a></li>
+        <li><a href="./index.html#personal_interests">Art Stuff</a></li>
+      </ul>
+
+
+    </nav>
   </header>
+
   <main>
     <section id="Research_Projects">
+
       <div class="info">
         <h1>My Research Projects</h1>
         <p>I have always been fascinated by the remarkable advancements that humans have achieved throughout the ages.
@@ -42,97 +36,115 @@
         <p>Research holds a special place in my heart, representing a realm where my passion thrives. Through various
           projects, I've gained profound insights into the intricacies of our world and its workings.</p>
         <p>Here, I present a glimpse of some projects that have not only inspired me but have also been instrumental in
-          providing valuable lessons. These are just a few among many, and I invite you to delve deeper if your curiosity
+          providing valuable lessons. These are just a few among many, and I invite you to delve deeper if your
+          curiosity
           is piqued.</p>
       </div>
+
       <div class="carousel">
-        <a href="https://github.com/Bluejee/OpenLIBS" class="floating_card">
-          <h2>LIBS for All</h2>
-          <p>Lasers, a marvel of scientific discovery, have proven invaluable in solving innumerable challenges.</p>
-          <p>Laser-Induced Breakdown Spectroscopy (LIBS), a branch of laser physics, involves directing laser pulses
-            onto materials, studying the resulting plasma to gain insights into the sample.</p>
-          <p>Introducing OpenLIBS: an open-source Python package designed for the computational analysis of LIBS
-            spectra. It empowers users to conduct qualitative analysis based on LIBS data.</p>
-        </a>
+        <div class="floating_card">
+          <div class="content">
+            <h2>LIBS for All</h2>
+            <p>Lasers, a marvel of scientific discovery, have proven invaluable in solving innumerable challenges.</p>
+            <p>Laser-Induced Breakdown Spectroscopy (LIBS), a branch of laser physics, involves directing laser pulses
+              onto materials, studying the resulting plasma to gain insights into the sample.</p>
+            <p>Introducing OpenLIBS: an open-source Python package designed for the computational analysis of LIBS
+              spectra. It empowers users to conduct qualitative analysis based on LIBS data.</p>
+          </div>
+          <div class="links">
+            <a href="https://github.com/Bluejee/OpenLIBS" class="button_1"><span>Code</span></a>
+          </div>
+        </div>
 
-        <a href="https://github.com/Bluejee/Ant_Foraging_MNEST" class="floating_card">
-          <h2>How Intelligent are Ants?</h2>
-          <p>Ants are simple creatures, and often seem to be stupid when looked at individually.</p>
-          <p>As a colony though, it's a different story. They have amazing mechanisms through which they collaborate and
-            solve problems to figure out how to survive and forage food.</p>
-          <p>Understanding Complex Behaviours in Multi-Agent systems using Reinforcement Learning, is a project which
-            aims to gain insights on the emergent
-            phenomena that can be observed in the physical world using Reinforcement Learning and Physics</p>
-        </a>
-        <a href="https://github.com/Bluejee/Basics_of_Chaos" class="floating_card">
-          <h2>Deciphering Chaos</h2>
-          <p>The allure of chaos captivates us all, evoking notions of freedom and possibility. Terms like the butterfly
-            effect have become common even for teenagers, yet chaos remains a misunderstood enigma.</p>
-          <p>Contrary to popular portrayal, delving into chaos theory offers insights that underpin our world.</p>
-          <p>"Chaos - Interpreting the Physical Pendulum and the Chaotic Ratchet", is a project that aims to explore the
-            field of dynamical systems such and study the counterintuitive workings of the physical pendulum and the
-            Chaotic Ratchet. </p>
-        </a>
+        <div class="floating_card">
+          <div class="content">
+            <h2>How Intelligent are Ants?</h2>
+            <p>Ants are simple creatures, and often seem to be stupid when looked at individually.</p>
+            <p>As a colony though, it's a different story. They have amazing mechanisms through which they collaborate
+              and
+              solve problems to figure out how to survive and forage food.</p>
+            <p>Understanding Complex Behaviours in Multi-Agent systems using Reinforcement Learning, is a project which
+              aims to gain insights on the emergent
+              phenomena that can be observed in the physical world using Reinforcement Learning and Physics</p>
+          </div>
+          <div class="links">
+            <a href="https://github.com/Bluejee/OpenLIBS" class="button_1"><span>Code</span></a>
+          </div>
+        </div>
+        <div class="floating_card">
+          <div class="content">
+            <h2>Deciphering Chaos</h2>
+            <p>The allure of chaos captivates us all, evoking notions of freedom and possibility. Terms like the
+              butterfly
+              effect have become common even for teenagers, yet chaos remains a misunderstood enigma.</p>
+            <p>Contrary to popular portrayal, delving into chaos theory offers insights that underpin our world.</p>
+            <p>"Chaos - Interpreting the Physical Pendulum and the Chaotic Ratchet", is a project that aims to explore
+              the
+              field of dynamical systems such and study the counterintuitive workings of the physical pendulum and the
+              Chaotic Ratchet. </p>
+          </div>
+          <div class="links">
+            <a href="https://github.com/Bluejee/OpenLIBS" class="button_1"><span>Code</span></a>
+          </div>
+        </div>
 
-        <a href="https://github.com/Bluejee" target="_blank" class="floating_card research_card">
-          <h2>I'll be putting more cards ASAP</h2>
-          <p>The Cards that are supposed to come here are with the manufacturers. All Completed projects are there in my
-            GitHub though.</p>
-          <p>So Until I get the cards and set things up over here, Visit my GitHub to see my work.</p>
-          <p>Click Me to go to GitHub.</p>
-        </a>
+        <div class="floating_card">
+          <div class="content">
+            <h2>I'll be putting more cards ASAP</h2>
+            <p>The Cards that are supposed to come here are with the manufacturers. All Completed projects are there in
+              my
+              GitHub though.</p>
+            <p>So Until I get the cards and set things up over here, Visit my GitHub to see my work.</p>
+          </div>
+          <div class="links">
+            <a href="https://github.com/Bluejee" class="button_1"><span>GitHub</span></a>
+          </div>
         <!-- Repeat this card structure for each blog -->
       </div>
+
     </section>
   </main>
 
-
-  <footer>
+  <footer id="contact">
     <div class="footer_main">
-      <aside>
-        <a href="./index.html"><img src="Images/Bluejee_Logo_Pack/Bluejee_Logo_Sized.png" alt="Bluejee Logo"
-            height="100 px"></a>
-        <P>Balakrishna Prabhu B. N.</P>
-        <p>Site last updated on :: 08/01/2024</p>
+      <a href="../../index.html"><img src="../../Images/Bluejee_Logo_Pack/Bluejee_Logo_Sized.png" alt="Bluejee Logo"
+          height="100 px"></a>
+      <p>Balakrishna Prabhu B. N.</p>
+      <p>Site last updated on :: 08/01/2024</p>
 
-      </aside>
 
     </div>
     <div class="footer_social">
-      <aside>
-        <h4>Connect with me on social media:</h4>
+      <h3>Connect with me on social media:</h4>
         <ul class="social_links">
           <li><a rel="me" href="https://www.linkedin.com/in/balakrishnaprabhubn/" target="_blank"><img
-                src="Images/Brand_Glyphs/LI-In-Bug.png" alt="LinkedIn Logo" height="40 px"></a>
+                src="../../Images/Brand_Glyphs/LI-In-Bug.png" alt="LinkedIn Logo" height="40 px"></a>
           </li>
           <li><a rel="me" href="https://github.com/Bluejee" target="_blank"><img
-                src="Images/Brand_Glyphs/github-mark.png" alt="Github Logo" height="40 px"></a>
+                src="../../Images/Brand_Glyphs/github-mark.png" alt="Github Logo" height="40 px"></a>
           </li>
           <li><a rel="me" href="https://twitter.com/bluejee4" target="_blank"><img
-                src="Images/Brand_Glyphs/Twitter social icons - circle - blue.png" alt="Twitter Logo"
+                src="../../Images/Brand_Glyphs/Twitter social icons - circle - blue.png" alt="Twitter Logo"
                 height="40 px"></a>
           </li>
           <li><a rel="me" href="https://www.instagram.com/Bluejee4/" target="_blank"><img
-                src="Images/Brand_Glyphs/Instagram_Glyph_Gradient.png" alt="Instagram Logo" height="40 px"></a>
+                src="../../Images/Brand_Glyphs/Instagram_Glyph_Gradient.png" alt="Instagram Logo" height="40 px"></a>
           </li>
           <li><a rel="me" href="https://www.youtube.com/@bluejee" target="_blank"><img
-                src="Images/Brand_Glyphs/youtube_social_icon_red.png" alt="Youtube Logo" height="40 px"></a>
+                src="../../Images/Brand_Glyphs/youtube_social_icon_red.png" alt="Youtube Logo" height="40 px"></a>
           </li>
         </ul>
         <p>If you'd like to contact me directly, email me at <br> <a
             href="mailto:balakrishnaprabhu1999@gmail.com">balakrishnaprabhu1999@gmail.com</a></p>
-      </aside>
     </div>
     <div class="footer_copyright">
-      <aside>
-        <p>Copyright (c) 2023 Balakrishna Prabhu B. N.</p>
-        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License"
-            style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
-        Unless otherwise <a href="./Page_Info/page_info.html#Copyright">indicated</a>, the contents of <br>this
-        website (Bluejee) is licensed under a <br>
-        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
-          Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
-      </aside>
+      <p>Copyright (c) 2023 Balakrishna Prabhu B. N.</p>
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License"
+          style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+      <p>Unless otherwise <a href="./Page_Info/page_info.html#Copyright">indicated</a>, the contents of this
+        website (Bluejee) is licensed under a <a rel="license"
+          href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+          Attribution-NonCommercial-ShareAlike 4.0 International License</a></p>
     </div>
   </footer>
 </body>
