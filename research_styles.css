@@ -8,3 +8,16 @@
 .research_card p {
   text-align: justify;
 }
+
+.info {
+  max-width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: justify;
+  display: inline-block;
+}
+
+#Research_Projects{
+  display: flex;
+  flex-direction: column;
+}
