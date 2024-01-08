@@ -1,0 +1,91 @@
+.carousel {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-evenly;
+}
+
+.floating_card {
+  display: flex;
+  width: 38rem;
+  justify-content: space-evenly;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgb(14, 42, 43); 
+
+
+}
+
+.floating_card:hover {
+  transform: translateY(-5px);
+}
+
+.floating_card h2 {
+  font-size: 2rem;
+}
+.floating_card p {
+  font-size: 1.2rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.content {
+  padding: 1rem;
+}
+
+/* Button Inspiration :: https://stacksorted.com/buttons */
+.button_1 {
+  width: 7rem;
+  padding: 0.2rem;
+  text-decoration: none;
+  background-image: linear-gradient(
+    115deg,
+    #4fcf70,
+    #fad648,
+    #a767e5,
+    #12bcfe,
+    #44ce7b
+  );
+  text-align: center;
+  border-radius: 0.3rem;
+}
+
+.button_1:hover {
+  -webkit-animation: play_button 1.6s ease-in infinite;
+}
+
+.button_1 span {
+  color: #fff;
+  padding: 0.5rem;
+  font-size: 22px;
+  display: block;
+  background: #000;
+  border-radius: 0.3rem;
+}
+
+@-webkit-keyframes play_button {
+  0% {
+    background-position: 0px;
+  }
+  20% {
+    background-position: -110px;
+  }
+  35% {
+    background-position: -180px;
+  }
+  50% {
+    background-position: -210px;
+  }
+  80% {
+    background-position: -350px;
+  }
+  100% {
+    background-position: -390px;
+  }
+}
